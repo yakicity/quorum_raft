@@ -1,0 +1,32 @@
+=============== Jan 22, 2023 (JST) ===============
+12:17:54.069788 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:17:54.096065 db@open opening
+12:17:54.096478 version@stat F·[] S·0B[] Sc·[]
+12:17:54.103479 db@janitor F·2 G·0
+12:17:54.103532 db@open done T·7.4232ms
+12:17:54.104983 db@close closing
+12:17:54.105074 db@close done T·90µs
+=============== Jan 23, 2023 (JST) ===============
+15:04:36.671975 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:04:36.674639 version@stat F·[] S·0B[] Sc·[]
+15:04:36.674844 db@open opening
+15:04:36.675011 journal@recovery F·1
+15:04:36.678224 journal@recovery recovering @1
+15:04:36.692578 memdb@flush created L0@2 N·12 S·823B "HO\xf3..Ku\xc0,v5":"\xee\xffK..÷B,v2"
+15:04:36.694120 version@stat F·[1] S·823B[823B] Sc·[0.25]
+15:04:36.741738 db@janitor F·3 G·0
+15:04:36.741867 db@open done T·66.9923ms
+15:04:36.743044 db@close closing
+15:04:36.743185 db@close done T·139.3µs
+=============== Jan 24, 2023 (JST) ===============
+14:51:46.803166 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:51:46.806851 version@stat F·[1] S·823B[823B] Sc·[0.25]
+14:51:46.806927 db@open opening
+14:51:46.807004 journal@recovery F·1
+14:51:46.807577 journal@recovery recovering @3
+14:51:46.816723 memdb@flush created L0@5 N·1 S·386B "eth..Ku\xc0,v14":"eth..Ku\xc0,v14"
+14:51:46.818078 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:51:46.846413 db@janitor F·4 G·0
+14:51:46.846468 db@open done T·39.5141ms
+14:51:46.847610 db@close closing
+14:51:46.847672 db@close done T·60.2µs

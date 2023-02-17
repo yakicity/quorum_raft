@@ -1,0 +1,2 @@
+#!/bin/bash
+PRIVATE_CONFIG=/home/yusuke/intern/quorum/fromscratch/new-node-1t/tm.ipc nohup geth --datadir new-node-1 --nodiscover --verbosity 5 --networkid 31337 --raft --raftport 50000 --unlock 0xd12073ce3A32390c39b9c4a730D8b8686fFfa68C --password /home/yusuke/intern/quorum/fromscratch/pass --rpcaddr 0.0.0.0 --rpcport 22000 --rpcapi admin,db,eth,debug,miner,net,shh,txpool,personal,web3,quorum,raft --emitcheckpoints --port 21000 >> node.log 2>&1 &
